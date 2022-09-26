@@ -1,0 +1,339 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+body .imgbox {
+  overflow: hidden;
+}
+body .imgbox img {
+  width: 100%;
+}
+body section {
+  padding: 50px 0;
+}
+
+header {
+  background-color: #0a58ca;
+  padding: 35px 0;
+  width: 100%;
+  color: #ffffff;
+}
+header h1 {
+  font-size: 30px;
+}
+header a {
+  margin-left: 25px;
+}
+header a:hover {
+  text-decoration: underline;
+  color: #007fd0;
+}
+header .icon {
+  font-size: 30px;
+}
+@media screen and (max-width: 992px) {
+  header a {
+    display: none;
+  }
+  header .icon {
+    display: block;
+  }
+}
+@media screen and (min-width: 992px) {
+  header a {
+    display: inline-block;
+  }
+  header .icon {
+    display: none;
+  }
+}
+
+#home {
+  background-size: cover;
+  background-image: url("assets/pngtree-modern-double-colors-neon-lights-on-brick-background-image_324803.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #ffffff;
+  height: 130vh 0;
+  padding: 60px 0;
+}
+#home .col-md-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#home .col-md-12 .textbox {
+  margin: 160px;
+  width: 100%;
+}
+#home .col-md-12 .textbox h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+#home .col-md-12 .textbox h2 {
+  font-size: 23px;
+  margin: 20px 0;
+}
+#home .col-md-12 .textbox .btn-box .btn {
+  margin: 10px 10px;
+}
+
+#aboutus h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#aboutus h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+#aboutus .textbox {
+  margin-top: 120px;
+}
+#aboutus .textbox p {
+  line-height: 1.8;
+  opacity: 0.8;
+}
+#aboutus .imgbox {
+  margin-top: 70px;
+}
+
+#portfolio .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#portfolio .textbox h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+#portfolio .imgbox {
+  width: 280px;
+  margin: 0 5px;
+  position: relative;
+}
+#portfolio .imgbox .overlay {
+  color: #fff;
+  background-color: #6495f5;
+  font-size: 20px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transition: 0.1s;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+}
+#portfolio .imgbox .overlay:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+#portfolio .col-md-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#portfolio .textbox2 h4 {
+  font-size: 20px;
+  margin: 25px 0;
+}
+
+#services .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#services .textbox h2 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+#services .box {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 10px;
+  flex-direction: column;
+}
+#services .box .icon {
+  color: #4d8cf5;
+  font-size: 45px;
+}
+#services .box h1 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+#services .box p {
+  opacity: 0.6;
+}
+
+#awesome .textbox h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#awesome .textbox h2 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+#awesome .col-md-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#awesome .col-md-12 .box {
+  margin: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#awesome .col-md-12 .box .imgbox {
+  width: 210px;
+  position: relative;
+}
+#awesome .col-md-12 .box .imgbox .overlay {
+  color: #fff;
+  background-color: #6495f5;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transition: 0.1s;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+}
+#awesome .col-md-12 .box .imgbox .overlay:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+#awesome .col-md-12 .box h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+#awesome .col-md-12 .box h4 {
+  font-size: 18px;
+  opacity: 0.7;
+}
+#awesome .minibox {
+  display: flex;
+}
+#awesome .minibox i {
+  margin-left: 10px;
+}
+
+#video {
+  background-image: url("assets/57c31c59f69ff41454c71140_video.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+#video .icon {
+  font-size: 100px;
+  color: #ffffff;
+}
+#video h2 {
+  color: #ffffff;
+  font-size: 25px;
+  margin: 25px 0;
+}
+
+#latestnews .textbox h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+#latestnews .textbox h2 {
+  font-size: 20px;
+  opacity: 0.6;
+  margin: 10px 0;
+}
+#latestnews .col-md-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#latestnews .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 360px;
+}
+#latestnews .box .imgbox {
+  width: 370px;
+}
+#latestnews .box .textbox2 {
+  text-align: left;
+}
+#latestnews .box .textbox2 h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+#latestnews .box .textbox2 h2 {
+  margin: 10px 0;
+  opacity: 0.6;
+}
+#latestnews .box .textbox2 p {
+  margin: 10px 0;
+}
+#latestnews .box .textbox2 h3 {
+  color: #2684ff;
+}
+#latestnews .btn {
+  margin: 100px 0;
+}
+
+#keepintouch .textbox h1 {
+  font-weight: 700;
+  font-size: 25px;
+}
+#keepintouch .textbox h2 {
+  font-size: 20px;
+  opacity: 0.5;
+  font-style: italic;
+  margin: 15px 0;
+}
+#keepintouch input {
+  width: 100%;
+  margin: 10px 0;
+  border: 1px solid #c7c7c7;
+}
+#keepintouch textarea {
+  width: 100%;
+  border-radius: 7px;
+  margin: 10px 0;
+  border: 1px solid #c7c7c7;
+}
+#keepintouch .btn {
+  margin: 50px 0;
+}
+
+footer {
+  background-color: #222222;
+  padding: 40px 0;
+}
+footer span {
+  margin-left: 10px;
+  color: #ffffff;
+}
+footer span:hover {
+  color: #0a58ca;
+}
+footer p {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+footer p span {
+  color: #0a58ca;
+}/*# sourceMappingURL=style.css.map */

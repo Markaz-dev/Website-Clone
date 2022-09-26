@@ -1,0 +1,24 @@
+header
+    background-color: #0a58ca
+    padding: 35px 0
+    width: 100%
+    color: #ffffff
+    h1
+        font-size: 30px
+    a
+        margin-left: 25px
+        &:hover
+            text-decoration: underline
+            color: #007fd0
+    .icon
+        font-size: 30px
+    @media  screen and (max-width: 992px)
+        a
+            display: none
+        .icon
+            display: block
+    @media  screen and (min-width: 992px)
+        a
+            display: inline-block
+        .icon
+            display: none
